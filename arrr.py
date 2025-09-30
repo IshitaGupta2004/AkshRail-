@@ -121,7 +121,7 @@ def login_page():
     """, unsafe_allow_html=True)
 
     try:
-        logo = Image.open("C:/Users/HP/Downloads/ChatGPT Image Sep 14, 2025, 10_06_41 PM.png")
+        logo = Image.open("Screenshot (4).png")
     except FileNotFoundError:
         logo = None
 
@@ -186,7 +186,7 @@ def login_page():
 def main_app():
     # ---------- Load Logo ----------
     try:
-        logo = Image.open("C:/Users/HP/Downloads/ChatGPT Image Sep 14, 2025, 10_06_41 PM.png")
+        logo = Image.open("Screenshot (4).png")
     except FileNotFoundError:
         st.warning("Logo file not found. Using a placeholder or removing logo for now.")
         logo = None # Set to None if file not found
@@ -1208,3 +1208,4 @@ if not st.session_state.get("authenticated"):
     login_page()
 else:
     main_app()
+
