@@ -140,7 +140,7 @@ def login_page():
 
     
     
-    st.caption("Prepared by Team TeachNavs. This is a detailed idea demonstration where features and technologies are frequently explained. The final project may vary.")
+    st.caption("Prepared by Team TechNavs. This is a detailed idea demonstration where features and technologies are frequently explained. The final project may vary.")
 
 
     with st.form("login_form"):
@@ -1208,4 +1208,5 @@ if not st.session_state.get("authenticated"):
     login_page()
 else:
     main_app()
+
 
